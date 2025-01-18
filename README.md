@@ -1,9 +1,8 @@
-Here’s a comprehensive `README.md` file for your repository:
-
 ```markdown
 # MyWebServer
 
-This repository contains a simple Docker-based web server application. It includes a GitHub Actions workflow that automates the process of building the Docker image and pushing it to an AWS Elastic Container Registry (ECR) upon every push to the `main` branch.
+This repository contains a simple Docker-based web server application.
+It includes a GitHub Actions workflow that automates the process of building the Docker image and pushing it to an AWS Elastic Container Registry (ECR) upon every push to the `main` branch.
 
 ---
 
@@ -17,7 +16,7 @@ This repository contains a simple Docker-based web server application. It includ
 
 ## Repository Structure
 
-```
+```bash
 mywebserver/
 ├── Dockerfile         # Dockerfile to build the web server image
 ├── .github/
