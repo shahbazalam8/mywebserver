@@ -16,13 +16,13 @@ It includes a GitHub Actions workflow that automates the process of building the
 
 ## Repository Structure
 
-```bash
+
 mywebserver/
 ├── Dockerfile         # Dockerfile to build the web server image
 ├── .github/
 │   └── workflows/
-│       └── docker-build.yml  # GitHub Actions workflow
-├── app/               # Application source code
+│       └── aws.yml  # GitHub Actions workflow
+├── index.html               # Application source code
 ├── README.md          # Repository documentation
 └── other-files        # Additional files, if any
 ```
