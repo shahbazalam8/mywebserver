@@ -1,5 +1,5 @@
-```markdown
-# MyWebServer
+
+## WebServer
 
 This repository contains a simple Docker-based web server application.
 It includes a GitHub Actions workflow that automates the process of building the Docker image and pushing it to an AWS Elastic Container Registry (ECR) upon every push to the `main` branch.
@@ -13,10 +13,9 @@ It includes a GitHub Actions workflow that automates the process of building the
 - **AWS Integration**: Seamless integration with AWS for image storage and deployment.
 
 ---
-
 ## Repository Structure
 
-
+```bash
 mywebserver/
 ├── Dockerfile         # Dockerfile to build the web server image
 ├── .github/
@@ -27,7 +26,6 @@ mywebserver/
 └── other-files        # Additional files, if any
 ```
 
----
 
 ## Prerequisites
 
