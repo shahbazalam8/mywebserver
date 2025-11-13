@@ -20,7 +20,7 @@ jobs:
         # We need to fetch all history and branches for merging
         fetch-depth: 0 
         # Set up token for pushing (needed for merge/push)
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.TOKEN_GITHUB }}
         
     - name: 🎣 Define branches
       id: branches
