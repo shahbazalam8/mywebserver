@@ -1,5 +1,10 @@
 name: 🚀 Sync Releases on Merge
 
+permissions:
+  contents: write
+  pull-requests: write
+  checks: write
+
 on:
   pull_request:
     types: [closed]
