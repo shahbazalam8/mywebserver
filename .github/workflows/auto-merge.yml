@@ -26,6 +26,12 @@ jobs:
         fetch-depth: 0 
         # Set up token for pushing (needed for merge/push)
         token: ${{ secrets.TOKEN_GITHUB }}
+    
+    - name: 🧾 Configure Git committer (for merges and pushes)
+      run: |
+        git config --global user.name "${{ github.actor }}"
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
         
     - name: 🎣 Define branches
       id: branches
